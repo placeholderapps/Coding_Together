@@ -6,8 +6,6 @@
 //  Copyright (c) 2013 CodingTogether. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
 @interface CTGEmptyViewController : UIViewController
 
 @end

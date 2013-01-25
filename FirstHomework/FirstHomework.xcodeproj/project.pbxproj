@@ -16,6 +16,7 @@
 		146E0E0916B1048B00290E3A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 146E0E0816B1048B00290E3A /* Default@2x.png */; };
 		146E0E0B16B1048B00290E3A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 146E0E0A16B1048B00290E3A /* Default-568h@2x.png */; };
 		146E0E4916B2D9E500290E3A /* CTGEmptyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146E0E4816B2D9E500290E3A /* CTGEmptyViewController.m */; };
+		146E0E4A16B2DAA800290E3A /* CTGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 146E0E4616B2D9CD00290E3A /* CTGAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -193,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				146E0E4A16B2DAA800290E3A /* CTGAppDelegate.m in Sources */,
 				146E0E0116B1048B00290E3A /* main.m in Sources */,
 				146E0E4916B2D9E500290E3A /* CTGEmptyViewController.m in Sources */,
 			);
