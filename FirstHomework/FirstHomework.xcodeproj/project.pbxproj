@@ -154,7 +154,7 @@
 		146E0DE716B1048B00290E3A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = CTG;
+				CLASSPREFIX = "";
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = CodingTogether;
 			};
