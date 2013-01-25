@@ -12,12 +12,10 @@
 		146E0DF916B1048B00290E3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146E0DF816B1048B00290E3A /* CoreGraphics.framework */; };
 		146E0DFF16B1048B00290E3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 146E0DFD16B1048B00290E3A /* InfoPlist.strings */; };
 		146E0E0116B1048B00290E3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 146E0E0016B1048B00290E3A /* main.m */; };
-		146E0E0516B1048B00290E3A /* CTGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 146E0E0416B1048B00290E3A /* CTGAppDelegate.m */; };
 		146E0E0716B1048B00290E3A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 146E0E0616B1048B00290E3A /* Default.png */; };
 		146E0E0916B1048B00290E3A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 146E0E0816B1048B00290E3A /* Default@2x.png */; };
 		146E0E0B16B1048B00290E3A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 146E0E0A16B1048B00290E3A /* Default-568h@2x.png */; };
-		146E0E0E16B1048B00290E3A /* CTGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146E0E0D16B1048B00290E3A /* CTGViewController.m */; };
-		146E0E1116B1048B00290E3A /* CTGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146E0E0F16B1048B00290E3A /* CTGViewController.xib */; };
+		146E0E4916B2D9E500290E3A /* CTGEmptyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146E0E4816B2D9E500290E3A /* CTGEmptyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +27,13 @@
 		146E0DFE16B1048B00290E3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		146E0E0016B1048B00290E3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		146E0E0216B1048B00290E3A /* FirstHomework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirstHomework-Prefix.pch"; sourceTree = "<group>"; };
-		146E0E0316B1048B00290E3A /* CTGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTGAppDelegate.h; sourceTree = "<group>"; };
-		146E0E0416B1048B00290E3A /* CTGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTGAppDelegate.m; sourceTree = "<group>"; };
 		146E0E0616B1048B00290E3A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		146E0E0816B1048B00290E3A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		146E0E0A16B1048B00290E3A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		146E0E0C16B1048B00290E3A /* CTGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTGViewController.h; sourceTree = "<group>"; };
-		146E0E0D16B1048B00290E3A /* CTGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTGViewController.m; sourceTree = "<group>"; };
-		146E0E1016B1048B00290E3A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CTGViewController.xib; sourceTree = "<group>"; };
+		146E0E4516B2D9CD00290E3A /* CTGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTGAppDelegate.h; sourceTree = "<group>"; };
+		146E0E4616B2D9CD00290E3A /* CTGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTGAppDelegate.m; sourceTree = "<group>"; };
+		146E0E4716B2D9E500290E3A /* CTGEmptyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTGEmptyViewController.h; sourceTree = "<group>"; };
+		146E0E4816B2D9E500290E3A /* CTGEmptyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTGEmptyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +80,9 @@
 		146E0DFA16B1048B00290E3A /* FirstHomework */ = {
 			isa = PBXGroup;
 			children = (
-				146E0E0316B1048B00290E3A /* CTGAppDelegate.h */,
-				146E0E0416B1048B00290E3A /* CTGAppDelegate.m */,
-				146E0E0C16B1048B00290E3A /* CTGViewController.h */,
-				146E0E0D16B1048B00290E3A /* CTGViewController.m */,
-				146E0E0F16B1048B00290E3A /* CTGViewController.xib */,
+				146E0E4416B2D9BB00290E3A /* AppDelegate */,
+				146E0E4116B2D9AB00290E3A /* Controllers */,
+				146E0E4216B2D9AB00290E3A /* Model */,
 				146E0DFB16B1048B00290E3A /* Supporting Files */,
 			);
 			path = FirstHomework;
@@ -105,6 +100,31 @@
 				146E0E0A16B1048B00290E3A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		146E0E4116B2D9AB00290E3A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				146E0E4716B2D9E500290E3A /* CTGEmptyViewController.h */,
+				146E0E4816B2D9E500290E3A /* CTGEmptyViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		146E0E4216B2D9AB00290E3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		146E0E4416B2D9BB00290E3A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				146E0E4516B2D9CD00290E3A /* CTGAppDelegate.h */,
+				146E0E4616B2D9CD00290E3A /* CTGAppDelegate.m */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +183,6 @@
 				146E0E0716B1048B00290E3A /* Default.png in Resources */,
 				146E0E0916B1048B00290E3A /* Default@2x.png in Resources */,
 				146E0E0B16B1048B00290E3A /* Default-568h@2x.png in Resources */,
-				146E0E1116B1048B00290E3A /* CTGViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,8 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				146E0E0116B1048B00290E3A /* main.m in Sources */,
-				146E0E0516B1048B00290E3A /* CTGAppDelegate.m in Sources */,
-				146E0E0E16B1048B00290E3A /* CTGViewController.m in Sources */,
+				146E0E4916B2D9E500290E3A /* CTGEmptyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +207,6 @@
 				146E0DFE16B1048B00290E3A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		146E0E0F16B1048B00290E3A /* CTGViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				146E0E1016B1048B00290E3A /* en */,
-			);
-			name = CTGViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -293,6 +303,7 @@
 				146E0E1616B1048B00290E3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
